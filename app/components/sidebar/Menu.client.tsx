@@ -117,6 +117,13 @@ export function Menu() {
             <span className="inline-block i-bolt:chat scale-110" />
             Start new chat
           </a>
+          <a
+            href="/vive"
+            className="flex gap-2 items-center bg-bolt-elements-sidebar-buttonBackgroundDefault text-bolt-elements-sidebar-buttonText hover:bg-bolt-elements-sidebar-buttonBackgroundHover rounded-md p-2 mt-2 transition-theme"
+          >
+            <span className="inline-block i-ph:code" />
+            Vive coding tool
+          </a>
         </div>
         <div className="text-bolt-elements-textPrimary font-medium pl-6 pr-5 my-2">Your Chats</div>
         <div className="flex-1 overflow-scroll pl-4 pr-5 pb-5">
